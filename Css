@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background-color: #0a0a0a;
+    color: #ff0033;
+    overflow-x: hidden;
+}
+
+canvas#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #ff0033;
+}
+
+.neon-red {
+    font-size: 3rem;
+    text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033;
+}
+
+input[type=text] {
+    width: 400px;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid #ff0033;
+    background-color: #0a0a0a;
+    color: #ff0033;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #ff0033;
+    color: #0a0a0a;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6666;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card {
+    background-color: #111;
+    border: 1px solid #ff0033;
+    padding: 1rem 2rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff0033;
+}
+
+#ai-response {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #111;
+    border: 1px solid #ff0033;
+}

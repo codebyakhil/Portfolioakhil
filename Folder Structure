@@ -1,0 +1,14 @@
+Akhil-portfolio/
+│
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── ai-brain.js
+├── assets/
+│   ├── profile.jpg
+│   ├── project1.png
+│   └── project2.png
+├── cv/
+│   └── Akhil_CV.pdf
+└── README.md

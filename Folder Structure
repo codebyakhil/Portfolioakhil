@@ -1,14 +1,15 @@
 Akhil-portfolio/
 │
-├── index.html
+├── index.html           # Main portfolio page
 ├── css/
-│   └── style.css
+│   └── style.css        # Black/red hacker neon theme
 ├── js/
-│   └── ai-brain.js
+│   ├── ai-brain.js      # Voice + AI assistant
+│   └── matrix.js        # Matrix-style background
 ├── assets/
-│   ├── profile.jpg
-│   ├── project1.png
+│   ├── profile.jpg      # Your profile image
+│   ├── project1.png     # Example project images
 │   └── project2.png
 ├── cv/
-│   └── Akhil_CV.pdf
-└── README.md
+│   └── Akhil_CV.pdf     # Your CV
+└── README.md            # Portfolio description
